@@ -125,7 +125,7 @@
   .timer-container{
     width:auto;
     height:auto;
-    border:1px solid red;rgba(72, 186, 63, 1)
+    border:1px solid red rgb(72, 186, 63, 1)
   }
   .departmet-text{
     padding:10px;
@@ -344,7 +344,7 @@
             const ampm = currentHour >= 12 ? 'PM' : 'AM';
             const hour = currentHour % 12 || 12;
             const minute = currentMinute < 10 ? '0' + currentMinute : currentMinute;
-            const currentTime = `${hour}:${minute} ${ampm}`;
+            const currentTime = ${hour}:${minute} ${ampm};
             
             // console.log(currentDay);
             const a = "Saturday"
